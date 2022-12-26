@@ -1,5 +1,42 @@
-.relleno {
+* {
+    background-size: cover;
+}
+
+body {
+    background-color: #F8F8F8;
+}
+
+.img-fondo{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    height: 50%;
+}
+
+.arriba{
+    text-align: center;
+}
+.abajo{
+    text-align: center;
+}
+
+.izquierda{
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    
+}
+
+.derecha{
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    
+}
+
+/*.relleno {
     background-color: red;
     border: 1px solid white;
     padding: 5px;
-}
+}*/
